@@ -1,0 +1,22 @@
+{
+	"name": "json-ga",
+	"description": "Analyse of JSON (de)serializing times using genetic algorithms.",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Mickael (https://github.com/Mickael-van-der-Beek)",
+	"engines": {
+		"node": ">=0.10.x"
+	},
+	"dependencies": {
+		"csv-stringify": "latest"
+	},
+	"devDependencies": {
+		"mocha": "1.18.2",
+		"jsdoc": "latest",
+		"chai": "1.9.1"
+	},
+	"scripts": {
+		"test": "node_modules/mocha/bin/mocha --timeout 1000 --reporter spec test/test.js",
+		"start": ""
+	}
+}
